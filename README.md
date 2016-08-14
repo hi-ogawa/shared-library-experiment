@@ -15,6 +15,7 @@
   - `-I, -L`: https://gcc.gnu.org/onlinedocs/gcc-6.1.0/gcc/Directory-Options.html
 - http://www.cprogramming.com/tutorial/shared-libraries-linux-gcc.html
 - http://tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html
+- Chapter 20 of [Understanding the Linux Kernel](http://shop.oreilly.com/product/9780596005658.do)
 
 ## Commands
 
