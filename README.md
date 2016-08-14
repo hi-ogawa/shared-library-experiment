@@ -24,11 +24,14 @@ After logging in to gcc environment with `docker-compose run --rm gcc bash`,
 Compile and run:
 
 ```
-$ gcc plus.c -c -fpic -I./
-$ gcc plus.o -o libplus.so -shared
-$ gcc main.c -o main -I./ -L./ -lplus
+$ make
+gcc plus.c -c -fpic -I./
+gcc plus.o -o libplus.so -shared
+gcc main.c -o main -I./ -L./ -lplus
 $ LD_LIBRARY_PATH=$(pwd) ./main
 plus(1, 2) = 3
+$ make clean
+rm -rf plus.o libplus.so main
 ```
 
 Read Binary file:
